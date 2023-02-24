@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.commodity-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+

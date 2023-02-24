@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "swiper-component": "/components/swiper-component/swiper-component",
+    "card": "/components/card/card",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "commodity-list": "/components/commodityList/commodityList"
+  }
+}

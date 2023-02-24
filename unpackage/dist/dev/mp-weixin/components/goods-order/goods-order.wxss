@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.goods-order-box.data-v-2dd41534 {
+  position: relative;
+  margin: 20rpx 0;
+  display: flex;
+}
+.goods-order-box .count-box.data-v-2dd41534 {
+  position: absolute;
+  color: #6e6e6e;
+  right: 20rpx;
+  bottom: 40rpx;
+}
+.goods-order-box .goods-order-left image.data-v-2dd41534 {
+  width: 160rpx;
+  height: 160rpx;
+}
+.goods-order-box .goods-order-right.data-v-2dd41534 {
+  padding: 0 20rpx;
+}
+.goods-order-box .goods-order-right .goods-order.data-v-2dd41534 {
+  width: 450rpx;
+  font-size: 28rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.goods-order-box .goods-order-right .goods-price-box.data-v-2dd41534 {
+  display: flex;
+  margin: 20rpx 0 10rpx;
+  height: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.goods-order-box .goods-order-right .goods-price-box .goods-price text.data-v-2dd41534 {
+  margin-right: 20rpx;
+}
+.goods-order-box .goods-order-right .goods-price-box .goods-price text.data-v-2dd41534:nth-child(1) {
+  font-weight: 700;
+  color: #fd4443;
+}
+.goods-order-box .goods-order-right .goods-price-box .goods-price text.data-v-2dd41534:nth-child(2) {
+  font-size: 24rpx;
+  text-decoration: line-through;
+  color: #c5c5c5;
+}
+.goods-order-box .goods-order-right .goods-price-box .goods-count-box.data-v-2dd41534 {
+  width: 90px;
+  margin-right: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.goods-order-box .goods-order-right .goods-price-box .goods-count-box .minus-icon.data-v-2dd41534 {
+  color: #dddddd !important;
+}
+.goods-order-box .goods-order-right .goods-price-box .goods-count-box .goods-count.data-v-2dd41534 {
+  width: 80rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  border-radius: 10rpx;
+  padding: 5rpx;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+.goods-order-box .goods-order-right .discount-price-box .discount-price.data-v-2dd41534 {
+  font-size: 26rpx;
+  color: #fd4443;
+}
+.goods-order-box .goods-order-right .discount-price-box .discount-service.data-v-2dd41534 {
+  margin: 15rpx 0;
+  font-size: 18rpx;
+}
+.goods-order-box .goods-order-right .discount-price-box .discount-service text.data-v-2dd41534 {
+  margin-right: 10rpx;
+  border: 1rpx solid #fd4443;
+  padding: 0 5rpx;
+  border-radius: 8rpx;
+  color: #fd4443;
+}
+

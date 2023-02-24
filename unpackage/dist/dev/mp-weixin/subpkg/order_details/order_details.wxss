@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.uni-tab__cart-sub-left {
+  padding: 0 300rpx 0 10rpx !important;
+}
+.goods-carts {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.goods-carts .total-price {
+  position: absolute;
+  top: 50%;
+  left: 120rpx;
+  z-index: 999;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 36rpx;
+  color: #fb5032;
+  font-weight: 700;
+}
+.van-card {
+  background-color: #fff !important;
+}
+.goods-order-container {
+  font-family: Times, serif;
+  background-color: #fff;
+  padding: 25rpx;
+  margin: 25rpx 0;
+  padding-bottom: 150rpx;
+  border-radius: 20rpx;
+}
+.goods-order-container .shop {
+  color: #fd4443;
+}
+.goods-order-container .shop text {
+  font-size: 24rpx;
+}
+.goods-order-container .service-delivery {
+  display: flex;
+  justify-content: space-between;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.goods-order-container .service-delivery text:nth-child(1) {
+  font-weight: 700;
+  font-size: 26rpx;
+}
+.goods-order-container .service-delivery text:nth-child(2) {
+  font-size: 22rpx;
+}
+

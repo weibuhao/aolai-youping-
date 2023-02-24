@@ -1,0 +1,1 @@
+<view><view class="card-box"><text>{{'-   '+title+"   -"}}</text></view></view>

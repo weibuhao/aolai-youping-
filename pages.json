@@ -1,0 +1,193 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [{
+      "path": "pages/home/home",
+      "style": {
+        "enablePullDownRefresh": false,
+        "onReachBottomDistance": 50,
+        "app-plus": {
+
+          "titleNView": {
+            "backgroundColor": "#fff",
+            "buttons": [{
+                "fontSize": "24px",
+                "text": "\ue8b9",
+                "fontSrc": "./static/iconfont.ttf",
+                "float": "left"
+              },
+              {
+                "fontSize": "24px",
+                "text": "\ue86f",
+                "fontSrc": "./static/iconfont.ttf",
+                "float": "right"
+              }
+            ]
+          }
+        }
+      }
+
+    }, {
+      "path": "pages/my/my",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/home/itemPage/recommend/recommend",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/cart/cart",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/sort/sort",
+      "style": {
+        "enablePullDownRefresh": false,
+        "app-plus": {
+
+          "titleNView": {
+            "backgroundColor": "#fff",
+            "buttons": [{
+                "fontSize": "24px",
+                "text": "\ue8b9",
+                "fontSrc": "./static/iconfont.ttf",
+                "float": "left"
+              },
+              {
+                "fontSize": "24px",
+                "text": "\ue86f",
+                "fontSrc": "./static/iconfont.ttf",
+                "float": "right"
+              }
+            ]
+          }
+        }
+      }
+
+    }, {
+      "path": "pages/home/itemPage/underwear/underwear",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/home/itemPage/makeup/makeup",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/home/itemPage/boots/boots",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/home/itemPage/digital/digital",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }
+
+  ],
+  "subPackages": [{
+    "root": "subpkg",
+    "pages": [{
+        "path": "search/search",
+        "style": {
+          "enablePullDownRefresh": false
+        }
+
+      }
+
+      , {
+        "path": "goods_list/goods_list",
+        "style": {
+          "navigationBarTitleText": "",
+          "onReachBottomDistance": 100,
+          "enablePullDownRefresh": false
+        }
+
+      }, {
+        "path": "goods_details/goods_details",
+        "style": {
+          "enablePullDownRefresh": false
+        }
+      }, {
+        "path": "address_list/address_list",
+        "style": {
+          "navigationBarTitleText": "我的地址",
+          "enablePullDownRefresh": false
+        }
+
+      }, {
+        "path": "establish_address/establish_address",
+        "style": {
+          "navigationBarTitleText": "新建地址",
+          "enablePullDownRefresh": false
+        }
+
+      }
+        ,{
+                    "path" : "order_details/order_details",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+  }],
+  "globalStyle": {
+    "scrollIndicator": "none",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "奥莱优品",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  },
+  "tabBar": {
+    "selectedColor": "#2c2c2c",
+    "list": [{
+        "text": "首页",
+        "pagePath": "pages/home/home",
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/home_active.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/sort/sort",
+        "iconPath": "static/tabBar/sort.png",
+        "selectedIconPath": "static/tabBar/sort_active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/tabBar/cart.png",
+        "selectedIconPath": "static/tabBar/cart_active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabBar/my.png",
+        "selectedIconPath": "static/tabBar/my_active.png"
+      }
+    ]
+
+  }
+}

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.my-login-container {
+  padding: 250rpx 80rpx;
+}
+.my-login-container .my-login-icon {
+  text-align: center;
+}
+.my-login-container .login-but {
+  background-color: #3b9cff;
+  border-radius: 500rpx;
+  color: #fff;
+}
+.my-login-container .my-login-word {
+  text-align: center;
+  margin: 20rpx 0;
+  font-size: 26rpx;
+  color: #aeb0ae;
+}
+

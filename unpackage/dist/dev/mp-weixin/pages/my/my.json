@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "my-login": "/components/my-login/my-login",
+    "my-user": "/components/my-user/my-user"
+  }
+}

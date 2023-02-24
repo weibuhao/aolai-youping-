@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.goods-brand.data-v-0e32a52e {
+  display: flex;
+  flex-wrap: wrap;
+}
+.goods-brand .goods-brand-item.data-v-0e32a52e {
+  width: 25%;
+  height: 180rpx;
+}
+.goods-brand .goods-brand-item image.data-v-0e32a52e {
+  vertical-align: middle;
+  width: 100%;
+}
+

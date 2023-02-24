@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.address-box.data-v-ab4355cc {
+  padding-bottom: 100rpx;
+}
+.goods-carts.data-v-ab4355cc {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+}
+

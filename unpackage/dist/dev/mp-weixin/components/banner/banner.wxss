@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.banner-img-box.data-v-6f413278 {
+  padding: 20rpx 0;
+  width: 100%;
+  height: 300rpx;
+  background-color: #fff;
+}
+.banner-img-box .banner-img.data-v-6f413278 {
+  width: 100%;
+  height: 100%;
+}
+.goods-nav.data-v-6f413278 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fff;
+}
+.goods-nav .goods-nav-item.data-v-6f413278 {
+  font-size: 26rpx;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 15rpx;
+}
+.goods-nav .goods-nav-item image.data-v-6f413278 {
+  width: 125rpx;
+  height: 100rpx;
+}
+

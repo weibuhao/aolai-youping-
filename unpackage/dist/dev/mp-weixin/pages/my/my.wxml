@@ -1,0 +1,1 @@
+<view class="data-v-0be17cc6"><block wx:if="{{!tokenState}}"><my-login vue-id="704e9d00-1" class="data-v-0be17cc6" bind:__l="__l"></my-login></block><block wx:else><my-user vue-id="704e9d00-2" class="data-v-0be17cc6" bind:__l="__l"></my-user></block></view>

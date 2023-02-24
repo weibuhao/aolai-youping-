@@ -1,0 +1,17 @@
+{
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "uni-search-bar": "/uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "u-back-top": "/node-modules/uview-ui/components/u-back-top/u-back-top",
+    "loader-view": "/components/loader-view/loader-view",
+    "recommend": "/pages/home/itemPage/recommend/recommend",
+    "motion": "/pages/home/itemPage/motion/motion",
+    "underwear": "/pages/home/itemPage/underwear/underwear",
+    "makeup": "/pages/home/itemPage/makeup/makeup",
+    "boots": "/pages/home/itemPage/boots/boots",
+    "digital": "/pages/home/itemPage/digital/digital"
+  }
+}

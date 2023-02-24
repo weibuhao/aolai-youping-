@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "wx-login": "/components/wx-login/wx-login",
+    "weixin-login": "/components/wx-login/wx-login"
+  }
+}

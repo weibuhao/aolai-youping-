@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper"
+  },
+  "component": true
+}

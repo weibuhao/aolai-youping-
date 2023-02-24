@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my",
+    "pages/home/itemPage/recommend/recommend",
+    "pages/cart/cart",
+    "pages/sort/sort",
+    "pages/home/itemPage/underwear/underwear",
+    "pages/home/itemPage/makeup/makeup",
+    "pages/home/itemPage/boots/boots",
+    "pages/home/itemPage/digital/digital"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "search/search",
+        "goods_list/goods_list",
+        "goods_details/goods_details",
+        "address_list/address_list",
+        "establish_address/establish_address",
+        "order_details/order_details"
+      ]
+    }
+  ],
+  "window": {
+    "scrollIndicator": "none",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "奥莱优品",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#2c2c2c",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/home",
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/home_active.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/sort/sort",
+        "iconPath": "static/tabBar/sort.png",
+        "selectedIconPath": "static/tabBar/sort_active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/tabBar/cart.png",
+        "selectedIconPath": "static/tabBar/cart_active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabBar/my.png",
+        "selectedIconPath": "static/tabBar/my_active.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

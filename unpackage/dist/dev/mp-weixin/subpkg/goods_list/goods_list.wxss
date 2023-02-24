@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.head.data-v-62032d4c {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: #ffff;
+}
+.active.data-v-62032d4c {
+  color: #3b9cff;
+}
+.filter-box.data-v-62032d4c {
+  border-bottom: #e5e5e5 solid 1px;
+  height: 80rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.filter-box .filter-item.data-v-62032d4c {
+  height: 50rpx;
+  line-height: 50rpx;
+  display: flex;
+  font-size: 28rpx;
+}
+.filter-box .filter-item .icon.data-v-62032d4c {
+  margin: 0 10rpx;
+}
+

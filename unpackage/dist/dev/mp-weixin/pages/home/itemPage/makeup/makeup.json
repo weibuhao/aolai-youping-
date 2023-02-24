@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "banner": "/components/banner/banner",
+    "shop": "/components/shop/shop",
+    "card": "/components/card/card",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "commodity-list": "/components/commodityList/commodityList"
+  }
+}

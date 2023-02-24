@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-search-bar": "/uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal"
+  }
+}

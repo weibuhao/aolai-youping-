@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "banner": "/components/banner/banner",
+    "card": "/components/card/card",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "commodity-list": "/components/commodityList/commodityList",
+    "shop": "/components/shop/shop"
+  }
+}

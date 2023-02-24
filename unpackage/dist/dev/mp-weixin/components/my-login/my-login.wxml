@@ -1,0 +1,1 @@
+<view><weixin-login vue-id="2db90e82-1" bind:__l="__l"></weixin-login></view>

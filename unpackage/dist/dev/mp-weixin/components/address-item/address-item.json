@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "u-swipe-action": "/node-modules/uview-ui/components/u-swipe-action/u-swipe-action",
+    "u-swipe-action-item": "/node-modules/uview-ui/components/u-swipe-action-item/u-swipe-action-item",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon"
+  },
+  "component": true
+}

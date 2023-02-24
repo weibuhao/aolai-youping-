@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "onReachBottomDistance": 100,
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-search-bar": "/uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "goods-item": "/components/goodsItem/goodsItem",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

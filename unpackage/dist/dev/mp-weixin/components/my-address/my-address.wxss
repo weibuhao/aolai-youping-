@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.receipt-site-box {
+  background-color: #ffffff;
+  border-radius: 0 0 30rpx 30rpx;
+  overflow: hidden;
+}
+.receipt-site-box .receipt-site-anatomy {
+  padding: 20rpx 20rpx 0 20rpx;
+}
+.receipt-site-box .receipt-site-anatomy .receipt-site-main {
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.receipt-site-box .receipt-site-anatomy .receipt-site-main text:nth-child(2) {
+  background-color: #2a79ff;
+  font-size: 20rpx;
+  margin-left: 20rpx;
+  padding: 0 10rpx;
+  color: #fff;
+}
+.receipt-site-box .receipt-site-anatomy .receipt-site-main text:nth-child(1) {
+  font-size: 24rpx;
+}
+.receipt-site-box .receipt-site-anatomy .receipt-site-assistant-box {
+  display: flex;
+  justify-content: space-between;
+}
+.receipt-site-box .receipt-site-anatomy .receipt-site-assistant-box .receipt-site-assistant {
+  margin: 10rpx 0;
+}
+.receipt-site-box .receipt-site-anatomy .receipt-site-assistant-box .receipt-site-icon {
+  width: 60rpx;
+  line-height: 60rpx;
+  color: #b2b2b2;
+  text-align: center;
+}
+.receipt-site-box .receipt-site-anatomy > text {
+  font-size: 24rpx;
+  margin-right: 10rpx;
+}
+.receipt-site-box .border-img {
+  width: 100%;
+}
+.receipt-site-box .border-img image {
+  width: 100%;
+  height: 10rpx;
+}
+.add-receipt-site-box {
+  position: relative;
+  height: 100px;
+}
+.add-receipt-site-box .animation-box {
+  position: absolute;
+  border-radius: 100rpx;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 220rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.add-receipt-site-box .animation-box .receipt-site-icon-add {
+  margin: 5rpx;
+  color: #80c6ff;
+}
+.add-receipt-site-box .animation-box .loader {
+  padding: auto;
+  position: relative;
+  width: 200rpx;
+}
+.add-receipt-site-box .animation-box .loader text {
+  position: absolute;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+.add-receipt-site-box .animation-box .loader text:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 0.3px #80c6ff;
+}
+.add-receipt-site-box .animation-box .loader text:nth-child(2) {
+  color: #80c6ff;
+  -webkit-text-stroke: 1px #80c6ff;
+  -webkit-animation: uiverse723 3s ease-in-out infinite;
+          animation: uiverse723 3s ease-in-out infinite;
+}
+@-webkit-keyframes uiverse723 {
+0%,
+  100% {
+    -webkit-clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+}
+50% {
+    -webkit-clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+}
+}
+@keyframes uiverse723 {
+0%,
+  100% {
+    -webkit-clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+}
+50% {
+    -webkit-clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+}
+}
+

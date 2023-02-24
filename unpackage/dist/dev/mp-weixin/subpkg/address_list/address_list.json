@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的地址",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "address-item": "/components/address-item/address-item",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "uni-goods-nav": "/uni_modules/uni-goods-nav/components/uni-goods-nav/uni-goods-nav"
+  }
+}

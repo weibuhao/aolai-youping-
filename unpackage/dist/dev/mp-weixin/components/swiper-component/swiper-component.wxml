@@ -1,0 +1,1 @@
+<view class="data-v-2c1b1e04"><view class="u-demo-block data-v-2c1b1e04"><u-swiper vue-id="57492382-1" list="{{swiperList}}" previousMargin="30" nextMargin="30" indicator="{{true}}" circular="{{true}}" autoplay="{{true}}" radius="5" bgColor="#ffffff" class="data-v-2c1b1e04" bind:__l="__l"></u-swiper></view></view>
